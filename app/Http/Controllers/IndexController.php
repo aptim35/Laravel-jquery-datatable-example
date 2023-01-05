@@ -9,7 +9,7 @@ class IndexController extends Controller
 public function getIndex(){
 
   
-    return view('Index');
+    return view('index');
 }
 
 public function getData(){
