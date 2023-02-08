@@ -5,7 +5,7 @@ $(document).ready(function() {
   function show_product(){
     $.ajax({
       type  : 'GET',
-      url   : 'http://localhost/laravel_datatables/public/data',
+      url   : 'http://localhost:8000/api/getData',
       dataType : 'json',
       async : false,
       success : function(data){
